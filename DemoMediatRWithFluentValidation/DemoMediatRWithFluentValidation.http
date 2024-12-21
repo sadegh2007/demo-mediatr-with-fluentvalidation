@@ -1,0 +1,13 @@
+@baseUrl = http://localhost:5005/api
+
+### Send Login Request
+POST {{baseUrl}}/auth/login
+Accept: application/json
+Content-Type: application/json
+
+{
+    "email": "sadegh.h.2007@gmail.com",
+    "password": "123456"
+}
+
+###
